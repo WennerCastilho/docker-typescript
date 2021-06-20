@@ -7,7 +7,7 @@ docker build -t <nome-da-aplicação> .
 Exemplo:
 
 ```diff
-- docker build -t docker-typescript .
+- docker build -t <nome-da-aplicação> .
 + docker build -t docker-typescript .
 ```
 
