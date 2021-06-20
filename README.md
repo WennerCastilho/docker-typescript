@@ -43,3 +43,10 @@ docker container ls
 ```sh
 docker kill <container-id>
 ```
+
+Exemplo:
+
+```diff
+- docker kill <container-id>
++ docker kill 4ce94542d350
+```
