@@ -32,7 +32,7 @@ Exemplo:
 
 # Possíveis Erros
 
-## 1º Porta 3000 já está em uso:
+## 1º - Porta 3000 já está em uso:
 
 <span style="color: red">Caso ocorra algum erro ao rodar o container na porta 3000, digite os seguintes comandos no terminal:
 </span>
@@ -55,7 +55,7 @@ Exemplo:
 + docker kill 4ce94542d350
 ```
 
-## 2º Permissão negada para executar o comando docker run:
+## 2º - Permissão negada para executar o comando docker run:
 
 <span>- Será necessário dar permissão de root ao arquivo .docker/entrypoint.sh</span>
 <span>- Esse arquivo, é arquivo para ser executado diretamente no terminal, por esse motivo é necessário a permissão de root.</span>
